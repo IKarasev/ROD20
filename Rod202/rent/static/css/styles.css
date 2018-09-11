@@ -1,0 +1,423 @@
+a {
+	text-decoration: none;
+}
+
+.layout-row {
+	width: 100%;
+}
+
+.layout-column {
+	display: inline-block;
+}
+
+.page-wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: none;
+	margin: none;
+	width: 99vw;
+	z-index: 50;
+	min-width: 700px;
+}
+
+.page-line {
+	position: relative;
+	padding: none;
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 99vw;
+}
+
+.float-break {
+	clear: both;
+}
+
+.top-menu-wrapper {
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	width: 99vw;
+	z-index: 100;
+	margin: none;
+	background-color: #e60000;
+	background: -moz-linear-gradient(top,  rgba(230,0,0,1) 0%, rgba(230,0,0,0.85) 88%, rgba(230,0,0,0.6) 100%);
+	background: -webkit-linear-gradient(top,  rgba(230,0,0,1) 0%,rgba(230,0,0,0.85) 88%,rgba(230,0,0,0.6) 100%);
+	background: linear-gradient(to bottom,  rgba(230,0,0,1) 0%,rgba(230,0,0,0.85) 88%,rgba(230,0,0,0.6) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e60000', endColorstr='#99e60000',GradientType=0 );
+}
+
+.address-row{
+	font-size: 0.8em;
+	color: #111;
+	text-align: left;
+}
+
+.address-row-item {
+	position: relative;
+	float: right;
+	padding-right: 1.5em;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+.address-row-item a {
+	color: inherit;
+	font: inherit;
+}
+
+.page-title {
+	font-size: 1.6em;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	/*border-top: 1px solid #ff3333;*/
+	
+	color: #FFF;
+	letter-spacing: 0.4em;
+
+	text-shadow: 1px 1px 0px #000;
+}
+
+.page-menu {
+	/*border-top: 1px solid #ff3333;*/
+	text-align: center;
+	font-size: 1.1em;
+}
+
+.page-menu table {
+	vertical-align: center;
+	text-align: center;
+	margin: auto;
+	border-collapse: collapse;
+	padding-bottom: 2px;
+}
+
+.page-menu-item {
+	height: 100%;
+	padding-right: 2em;
+	padding-left: 2em;
+	margin-right: none;
+	margin-left: none;
+	/*border-right: 1px solid #ff3333;
+	border-left: 1px solid #ff3333;*/
+	color: #ffe6e6;
+	text-shadow: 1px 1px 0px #000;
+}
+
+.menu-item-middle:hover {
+	-webkit-box-shadow: 0px -2px 2px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px -2px 2px 0px rgba(0,0,0,0.5);
+	box-shadow: 0px -2px 2px 0px rgba(0,0,0,0.5);
+}
+
+.back-to-top-button {
+	position: fixed;
+	display: inline-block;
+	z-index: 150;
+	width: 1.7em;
+	height: 1.7em;
+	padding: 0;
+	margin: 0;
+	background-color: #555;
+	opacity: 0.4;
+	color: #FFF;
+	font-size: 1.3em;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0.1em;
+}
+
+.back-to-top-button span {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+}
+
+.back-to-top-button:hover {
+	opacity: 0.6;
+}
+
+.punchline-table {
+	width: 100%;
+}
+
+.punchline-row {
+	position: relative;
+	display: flex;
+	width: 100%;
+	font-size: 1.4em;
+	margin: none;
+	padding-top:20px;
+	padding-bottom: 20px;
+	color: #01195c;
+	background: #fffb00;
+	background: -moz-linear-gradient(left, #fffb00 0%, #ffffff 5%, #ffffff 95%, #fffb00 100%);
+	background: -webkit-linear-gradient(left, #fffb00 0%,#ffffff 5%,#ffffff 95%,#fffb00 100%);
+	background: linear-gradient(to right, #fffb00 0%,#ffffff 5%,#ffffff 95%,#fffb00 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffb00', endColorstr='#fffb00',GradientType=1 );
+}
+
+.punchline-column-info {
+	width: 48%;
+	height: 100%;
+	vertical-align: middle;
+	padding-right: 0.5%;
+	padding-left: 4%;
+}
+
+.punchline-column-map {
+	width: 50%;
+	height: 100%;
+	padding-right: 4%;
+}
+
+.punchline-column-map iframe {
+	float: left;
+	width: 100%;
+	height: 100%;
+	min-height: 300px;
+	border: 0;
+	padding: none;
+	margin: none;
+	-webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
+.punchline-text {
+	width: 100%;
+	text-align: left;
+	font-size: 1.4em;
+	padding-left: 0.8em;
+}
+
+.free-rooms-row {
+	padding-bottom: 1.5em;
+	padding-top: 1em;
+	color: #000;
+	background: #ffa703;
+	background: -moz-linear-gradient(left, #ffa703 0%, #ffffff 5%, #ffffff 95%, #ffa703 100%);
+	background: -webkit-linear-gradient(left, #ffa703 0%,#ffffff 5%,#ffffff 95%,#ffa703 100%);
+	background: linear-gradient(to right, #ffa703 0%,#ffffff 5%,#ffffff 95%,#ffa703 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa703', endColorstr='#ffa703',GradientType=1 );
+}
+
+.free-rooms-title {
+	padding-top: 2em;
+	padding-bottom: 1em;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 1px 1px 0px #888;
+ }
+
+.free-rooms-row table {
+	padding-bottom: 20px;
+	padding-top: 20px;
+	margin: auto;
+	vertical-align: center;
+	border-collapse: collapse;
+	width: 70%;
+	text-align: center;
+}
+
+.free-rooms-row table tr {
+	border-bottom: 1px solid #DDD;
+}
+
+.free-rooms-row table tr:hover {
+	background-color: #ffbf2b;
+}
+
+.free-rooms-row table th {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.free-rooms-row table td {
+	font-size: 1.3em;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.free-rooms-row table td button {
+	border: 1px solid #ffbf2b;
+	border-radius: 0.2em;
+	background-color: #FFF;
+	-webkit-box-shadow: inset 0px 0px 3px 0px rgba(255,167,3,1);
+	-moz-box-shadow: inset 0px 0px 3px 0px rgba(255,167,3,1);
+	box-shadow: inset 0px 0px 3px 0px rgba(255,167,3,1);
+}
+
+.free-rooms-none-row {
+	display: none;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #ffa703;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 1px 1px 0px #888;
+}
+
+.rooms-plan-row {
+	margin: none;
+	padding: none;
+	background: #516bff;
+	background: -moz-linear-gradient(left, #516bff 0%, #ffffff 5%, #ffffff 95%, #516bff 100%);
+	background: -webkit-linear-gradient(left, #516bff 0%,#ffffff 5%,#ffffff 95%,#516bff 100%);
+	background: linear-gradient(to right, #516bff 0%,#ffffff 5%,#ffffff 95%,#516bff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#516bff', endColorstr='#516bff',GradientType=1 );
+}
+
+.rooms-plan-wrapper {
+	position: relative;
+	width: 80%;
+	padding: 0;
+	margin: auto;
+}
+
+.rooms-plan-header {
+	width: 100%;
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+	padding-top: 1.5em;
+	color: #516bff;
+	text-shadow: 1px 1px 0px #0026ff;
+}
+.rooms-plan-object {
+	display: block;
+	background-color: none;
+	padding: 0;
+	margin: 0.5em auto;
+}
+
+.rooms-plan-carousel-navbuttons {
+	display: table;
+	margin: 0 auto;
+}
+
+.rooms-plan-carousel-navbuttons button {
+	background-color: #FFF;
+	border: none;
+	margin: auto 1em;
+	font-size: 1.2em;
+	outline: none;
+}
+
+.rooms-plan-carousel-navbuttons button:hover {
+	text-shadow: 0px 1px 2px #0026ff;
+}
+
+.application-form-row, .contacts-row{
+	color: #FFF;
+	background: #000000;
+	background: -moz-linear-gradient(left, #000000 0%, #565656 25%, #565656 75%, #000000 100%);
+	background: -webkit-linear-gradient(left, #000000 0%,#565656 25%,#565656 75%,#000000 100%);
+	background: linear-gradient(to right, #000000 0%,#565656 25%,#565656 75%,#000000 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=1 );
+}
+
+.application-form-wrapper {
+	display: table;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	margin: 0 auto;
+}
+
+.application-form-line {
+	display: table-row;
+}
+
+.application-form-cell {
+	display: table-cell;
+	padding-bottom: 1.5em;
+	font-size: 1.2em;
+	font-family: sans-serif;
+	text-shadow: 2px 0px 2px #000;
+	vertical-align: top;
+}
+
+.application-form-cell input, .application-form-cell textarea {
+	width: 20em;
+	margin-left: 1.5em;
+	padding-top: 0.1em;
+	padding-bottom: 0.1em;
+	border: none;
+	border-bottom: 1px solid #CCC;
+	background: none;
+	font: inherit;
+	text-shadow: inherit;
+	color: inherit;
+	outline: none;
+}
+
+.application-form-cell textarea {
+	height: 4em;
+	border-top: 1px solid #CCC;
+	font-size: 1em;
+	font-weight: normal;
+}
+
+.application-form-wrapper button {
+	width: 100%;
+	font-size: 1.3em;
+	color: #000;
+	background-color: #EEE;
+	border: 0px;
+	border-radius: 1px;
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+.application-form-wrapper button:hover {
+	background: rgb(238,238,238);
+	background: -moz-linear-gradient(top, rgba(153,153,153,1) 0%, rgba(238,238,238,1) 10%, rgba(238,238,238,1) 90%, rgba(153,153,153,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(153,153,153,1) 0%,rgba(238,238,238,1) 10%,rgba(238,238,238,1) 90%,rgba(153,153,153,1) 100%);
+	background: linear-gradient(to bottom, rgba(153,153,153,1) 0%,rgba(238,238,238,1) 10%,rgba(238,238,238,1) 90%,rgba(153,153,153,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#999999', endColorstr='#999999',GradientType=0 );
+}
+
+.contacts-row {
+	border-bottom: 1px solid #777;
+	color: #FFF;
+}
+
+.contacts-title {
+	padding-top: 1.5em;
+	font-size: 1.6em;
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 3px 0px 2px #000;
+}
+
+.contacts-wrapper {
+	width: 100%;
+	padding-top: 2em;
+	padding-bottom: 1em;
+	font-size: 1.3em;
+	font-weight: bold;
+	text-shadow: 2px 0px 2px #000;
+}
+
+.contacts-wrapper table{
+	margin: 0 auto;
+}
+
+.contacts-wrapper table td {
+	padding-left: 1em;
+	padding-bottom: 1em;
+}
+
+.contacts-wrapper table td a {
+	font: inherit;
+	color: inherit;
+	text-shadow: inherit;
+}

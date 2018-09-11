@@ -1,0 +1,162 @@
+{% load static %}
+{% load custom_tags %}
+
+<!DOCTYPE html>
+
+<HTML>
+	<HEADER>
+		<link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+		<link rel="stylesheet" type="text/css" href="{% static 'slick/slick.css' %}">
+		<link rel="stylesheet" type="text/css" href="{% static 'slick/slick-theme.css' %}">
+		<script type="text/javascript" src="{% static 'scripts/jquery-3.2.0.min.js' %}"></script>
+		<script type="text/javascript" src="{% static 'scripts/page-code.js' %}"></script>
+		<script type="text/javascript" src="{% static 'slick/slick.min.js' %}"></script>
+	</HEADER>
+	<BODY>
+		<div class="top-menu-wrapper">
+			<div class="layout-row address-row">
+				<div class="layout-column address-row-item">{{ contacts.address }}</div>
+				<div class="layout-column address-row-item">тел: {{ contacts.phoneNumber }}</div>
+				<div class="layout-column address-row-item">e-mail: <a href="mailto:{{ contacts.email }}">{{ contacts.email }}</a></div>
+				<div class="float-break"></div>
+			</div>
+			<div class="layout-row page-line page-title">
+				ОФИСЫ НА РОДИОНОВА 20
+			</div>
+			<div class="layout-row page-line page-menu">
+				<table>
+					<tr>
+						<td id="navButtonPunchline" class="page-menu-item menu-item-middle">КАРТА</td>
+						<td id="navButtonFreeOffice" class="page-menu-item menu-item-middle">СВОБОДНЫЕ ОФИСЫ</td>
+						<td id="navButtonPlan" class="page-menu-item menu-item-middle">ПЛАН ЗДАНИЯ</td>
+						<td id="navButtonContacts" class="page-menu-item menu-item-middle">КОНТАКТЫ</td>
+						<td id="navButtonApplication" class="page-menu-item menu-item-middle">ПОДАТЬ ЗАЯВКУ</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="back-to-top-button"><span>&#x21A5;</span></div>
+		<div class="page-wrapper">
+			<div class="page-line punchline-row screen-height">
+				<table class="punchline-table">
+					<tr>
+						<td class="punchline-column-info">
+							<p class="punchline-title">С нами удобно:</p>
+							<ul>
+								<li class="punchline-text">Комунальные платежи</li>
+								<li class="punchline-text">Электричество</li>
+								<li class="punchline-text">Отопление</li>
+								<li class="punchline-text">Видеонаблюдение</li>
+							</ul>
+							<p class="punchline-title">ВСЕ ВКЛЮЧЕНО!</p>
+						</td>
+						<td class="punchline-column-map">
+							<iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJNUTdZfXUUUER53MG3tmKTDg&key=AIzaSyDCpkjWLcXXo9Y8-RqoAxMJ_Bqz6Rbm5aI" allowfullscreen></iframe>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="layout-row page-line free-rooms-row screen-height">
+				<div class="layout-row free-rooms-title">
+					СНИМИ ОФИС!
+				</div>
+				<table class="free-rooms-table">
+					<tr>
+						<th>Комната</th>
+						<th>Этаж</th>
+						<th>Цена (р./мес.)</th>
+						<th></th>
+					</tr>
+					{% for room in free_rooms %}
+						<tr>
+							<td>{{ room.roomNumber }}</td>
+							<td>{{ room.floor }}</td>
+							<td>{{ room.price|decimalformat }}</td>
+							<td><button class="free-rooms-table-button">Оформить</button></td>
+						</tr>
+					{% endfor %}
+				</table>
+				<div class="layout-row free-rooms-none-row">
+					К сожалению все комнаты заняты :(
+				</div>
+			</div>
+			<div  class="layout-row page-line rooms-plan-row screen-height">
+				<div class="rooms-plan-wrapper">
+					<div class="rooms-plan-carousel">
+						<div>
+							<div class="rooms-plan-header">Первый этаж</div>
+							<object data="{% static 'maps/floor1.svg' %}" type="image/svg+xml" id="imap1" width="85%" class="rooms-plan-object"></object>
+						</div>
+						<div>
+							<div class="rooms-plan-header">Второй этаж</div>
+							<object data="{% static 'maps/floor2.svg' %}" type="image/svg+xml" id="imap2" width="85%" class="rooms-plan-object"></object>
+						</div>
+						<div>
+							<div class="rooms-plan-header">Третий этаж</div>
+							<object data="{% static 'maps/floor3.svg' %}" type="image/svg+xml" id="imap3" width="85%" class="rooms-plan-object"></object>
+						</div>
+					</div>
+				</div>
+				<div class="layout-row">
+					<div class="rooms-plan-carousel-navbuttons">
+						<button class="rooms-plan-carousel-prev">< Предыдущий</button>
+						<button class="rooms-plan-carousel-next">Следующий ></button>
+					</div>
+				</div>
+			</div>
+			<div class="layout-row contacts-row">
+				<div class="contacts-title">
+					СВЯЖИТЕСЬ С НАМИ!
+				</div>
+				<div class="contacts-wrapper">
+					<table>
+						<tr>
+							<td>Тел:</td><td>{{ contacts.phoneNumber }}</td>
+						</tr>
+						<tr>
+							<td>Email:</td><td><a href="mailto:{{ contacts.email }}">{{ contacts.email }}</a></td>
+						</tr>
+						<tr>
+							<td>Аддрес:</td><td>{{ contacts.address }}</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div  class="layout-row page-line application-form-row screen-height">
+				<div class="contacts-title">
+					ОСТАВЬТЕ ЗАЯВКУ ИЛИ ЗАДАЙТЕ ВОПРОС
+				</div>
+				<div class="application-form-wrapper">
+					<form action="" method="post">
+						{% csrf_token %}
+    					{% for field in form %}
+    						<div class="application-form-line">
+    							<div class="application-form-cell">
+    								<label>{{ field.label }}</label>
+    							</div>
+    							{% if field.name == "roomNumber" %}
+    								<div class="application-form-cell">
+    									{{ field }}
+    									<label for="room-multiple-selected">Выбранные комнаты:</label>
+										<div id="room-multiple-selected" class="room-multiple-selected"></div>
+										<label for="room-multiple-options">Свободные комнаты:</label>
+										<div id="room-multiple-options" class="room-multiple-options">
+											<div class="room-multiple-option" name="11">11</div>
+											<div class="room-multiple-option" name="12">12</div>
+											<div class="room-multiple-option" name="13">13</div>
+										</div>
+									</div>
+    							{% else %}
+    								<div class="application-form-cell">
+    									{{ field }}
+    								</div>
+    							{% endif %}
+    						</div>
+    					{% endfor %}
+    					<button type="submit">Отправить запрос</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</BODY>
+</HTML>

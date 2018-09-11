@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+
+{% load static%}
+
+<HTML>
+	<HEADER>
+		<script type="text/javascript" src="{% static 'scripts/jquery-3.2.0.min.js' %}"></script>
+		<script type="text/javascript" src="{% static 'scripts/jquery.kinetic.js' %}"></script>
+		<script type="text/javascript">
+			$(document).ready(function () {
+				$('.application-room-multiple-options').on("click",".application-room-multiple-option",function () {
+					var roomNumber = $(this).text();
+					$('.application-room-multiple-selected').append($(this).clone());
+					$(this).remove();
+					$('.application-room-multiple-select')
+						.append($('<option>', { 'value':roomNumber })
+							.text(roomNumber)
+							.prop('selected', true));
+				});
+
+				$('.application-room-multiple-selected').on("click",".application-room-multiple-option",function () {
+					var roomNumber = $(this).text();
+					$('.application-room-multiple-options').append($(this).clone());
+					$(this).remove();
+					$('.application-room-multiple-select > option[value="'+roomNumber+'"').remove();
+				});
+
+				$(".application-room-multiple-options, .application-room-multiple-selected").kinetic({cursor:"pointer"});
+			});
+		</script>
+		<style type="text/css">
+			.back {
+				display: block;
+				width: 100%;
+				height: 100%;
+				background-color: #000;
+				padding: 3em 0;
+			}
+
+			.application-room-multiple-wrapper {
+				color: #000;
+				font-size: 1.2em;
+				font-family: sans-serif;
+			}
+
+			.application-room-multiple-wrapper label {
+				color: #FFF;
+			}
+
+			.application-room-multiple-select {
+				width: 500px;
+			}
+
+			.application-room-multiple-selected, .application-room-multiple-options {
+				display: block;
+				overflow-x: auto;
+				overflow-y: hidden;
+				white-space: nowrap;
+				width: 20em;
+				border: none;
+				border-bottom: 1px solid #777;
+				margin: 0;
+				padding: 0.5em 1em;
+				background: none;
+				vertical-align: middle;
+				-moz-user-select: none;
+				-webkit-user-select: none;
+				-ms-user-select:none;
+				user-select:none;
+				-o-user-select:none;
+			}
+
+			.application-room-multiple-selected::-webkit-scrollbar, .application-room-multiple-options::-webkit-scrollbar {
+				height: 0.3em;
+			}
+
+			.application-room-multiple-selected::-webkit-scrollbar-track, .application-room-multiple-options::-webkit-scrollbar-track {
+				background-color: #DDD;
+			}
+
+			.application-room-multiple-selected::-webkit-scrollbar-thumb, .application-room-multiple-options::-webkit-scrollbar-thumb {
+				background: rgb(255,255,255);
+				background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 50%, rgba(255,255,255,1) 100%);
+				background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(0,0,0,1) 50%,rgba(255,255,255,1) 100%);
+				background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(0,0,0,1) 50%,rgba(255,255,255,1) 100%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+			}
+
+			.application-room-multiple-selected::-webkit-scrollbar-button, .application-room-multiple-options::-webkit-scrollbar-button {
+				background-color: #333;
+			}
+
+			.application-room-multiple-option {
+				display: inline-block;
+				padding: 0.1em 0.4em;
+				background-color: #444;
+				margin: 0 0.1em;
+				text-align: center;
+				border: 0 solid #000;
+				border-radius: 0.3em;
+				font-weight: bold;
+			}
+
+			.application-room-multiple-selected .application-room-multiple-option {
+				background-color: #FFF;
+			}
+
+			.application-room-multiple-options .application-room-multiple-option {
+				background-color: #EEE;
+			}
+
+			.application-room-multiple-option:hover {
+				background-color: #999;
+				color: #FFF;
+			}
+
+		</style>
+	</HEADER>
+	<BODY>
+		<div class="back">
+			<div class="application-room-multiple-wrapper">
+				<select class="application-room-multiple-select" multiple size="5" hidden></select>
+				<label for="application-room-multiple-selected">Выбранные комнаты:</label>
+				<div id="application-room-multiple-selected" class="application-room-multiple-selected"></div>
+				<label for="application-room-multiple-options">Свободные комнаты:</label>
+				<div id="application-room-multiple-options" class="application-room-multiple-options">
+					<div class="application-room-multiple-option" name="11">11</div>
+					<div class="application-room-multiple-option" name="12">12</div>
+					<div class="application-room-multiple-option" name="13">13</div>
+					<div class="application-room-multiple-option" name="14">14</div>
+					<div class="application-room-multiple-option" name="15">15</div>
+					<div class="application-room-multiple-option" name="16">16</div>
+					<div class="application-room-multiple-option" name="17">17</div>
+					<div class="application-room-multiple-option" name="18">18</div>
+					<div class="application-room-multiple-option" name="19-2">19-2</div>
+					<div class="application-room-multiple-option" name="110-2">110-2</div>
+					<div class="application-room-multiple-option" name="21-2">21-2</div>
+				</div>
+			</div>
+		</div>
+	</BODY>
+</HTML>
+
+<!--
+<HTML>
+	<HEADER>
+		<script type="text/javascript" src="{% static 'scripts/jquery-3.2.0.min.js' %}"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('.select-choices').click(function () {
+					var selectedOption = $(this).find("option:selected");
+					$(".select-field").append(selectedOption);
+					$(".select-field option:selected").css("background","#333").change();
+				});
+
+				$('.select-field').click(function () {
+					var selectedOption = $(this).find("option:selected");
+					$(".select-choices").append(selectedOption);
+				});
+			});
+		</script>
+		<style type="text/css">
+			.select-menu-wrapper {
+				width: 100%;
+				padding: 1em 2em;
+				background-color: #000;
+			}
+
+			.select-field > div, .select-choices > div {
+				overflow-x:auto;
+ 				overflow-y:auto;
+			}
+
+			.select-field, .select-choices{
+				display: block;
+				width: 500px;
+				height: 3em;
+				overflow-x:auto;
+ 				overflow-y:auto;
+				margin-bottom: 1em;
+				font-size: 1.2em;
+				color: #FFF;
+				border: none;
+				background: none;
+				border-bottom: 1px solid #666;
+				vertical-align: center;
+				outline: 0;
+			}
+
+			.select-field option, .select-choices option{
+				display: inline-block;
+				border: 1px solid #333;
+				border-radius: 0.3em;
+				margin-right: 0.3em;
+				padding: 0 0.2em;
+				background-color: #333;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			.select-field option:hover, .select-choices option:hover {
+				background-color: #555;
+			}
+
+			.select-choices {
+				overflow-x: auto;
+				overflow-y: auto;
+				height: 2.4em;
+			}
+
+		</style>
+	</HEADER>
+	<BODY>
+		<div class="select-menu-wrapper">
+			<div>
+				<select class="select-field" multiple size="5"></select>
+			</div>
+			<div>
+				<select class="select-choices" multiple size="1">
+					<option>111</option>
+					<option>222</option>
+					<option>333</option>
+					<option>444</option>
+					<option>555</option>
+					<option>666</option>
+					<option>777</option>
+					<option>888</option>
+					<option>999</option>
+					<option>110</option>
+					<option>120</option>
+					<option>130</option>
+					<option>140</option>
+					<option>150</option>
+				</select>
+			</div>
+		</div>
+	</BODY>
+</HTML>
+-->

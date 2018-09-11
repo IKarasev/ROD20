@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="37.459133mm"
+   height="14.22538mm"
+   viewBox="0 0 37.459133 14.22538"
+   version="1.1"
+   id="floor2"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="floor2.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="45.254833"
+     inkscape:cx="124.56198"
+     inkscape:cy="24.587143"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="703"
+     inkscape:window-x="1276"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1"
+     inkscape:snap-global="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:snap-bbox="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3691"
+       originx="1.4800992"
+       originy="-282.76941" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline"
+     transform="translate(1.4800992,-0.00520191)">
+    <g
+       id="g5915">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4502"
+         d="M 0.18586818,14.086348 H 35.833492 V 0.13792265 H 0.26500694 v 5.23065925 0"
+         style="fill:none;stroke:#000000;stroke-width:0.15000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:nodetypes="cccccc" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path4548"
+         d="m 29.36875,8.8687436 h 6.35"
+         style="fill:none;stroke:#000000;stroke-width:0.15000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path4550"
+         d="m 29.36875,5.9583269 h 6.35"
+         style="fill:none;stroke:#000000;stroke-width:0.15000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <g
+         transform="matrix(0,-0.2214175,0.3247215,0,-8.0426041,13.345077)"
+         id="g6085">
+        <path
+           style="fill:none;stroke:#323232;stroke-width:0.26105773;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 29.104166,39.031251 H 35.71875"
+           id="path6052"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#323232;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 29.104166,40.354167 H 35.71875"
+           id="path6054"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#323232;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 29.104166,41.677084 H 35.71875"
+           id="path6056"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#323232;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 29.104166,43.000001 H 35.71875"
+           id="path6058"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#323232;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 29.104166,44.322917 H 35.71875"
+           id="path6060"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#323232;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 29.104166,45.645834 H 35.71875"
+           id="path6062"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#323232;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 29.104166,46.968751 H 35.71875"
+           id="path6064"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 32.332596,47.094032 v -7.9375 l -0.529167,1.322916 h 1.058334 l -0.529167,-1.322916"
+           id="path6074"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.26105773;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 29.104166,37.804511 v 10.59241 h 6.450179 l 0.0066,-10.59241 z"
+           id="path6050"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccccc" />
+      </g>
+      <g
+         id="g5843"
+         transform="translate(0,0.00927133)">
+        <path
+           style="display:inline;fill:none;stroke:#323232;stroke-width:0.07;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 32.34797,6.0223949 V 7.4249944"
+           id="path6137-78"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#323232;stroke-width:0.07;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 31.300252,7.4608457 V 6.0162046"
+           id="path6133"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#323232;stroke-width:0.07;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 31.648964,7.4608457 V 6.0214139"
+           id="path6135"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#323232;stroke-width:0.07;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 31.997676,6.0199375 V 7.4608457"
+           id="path6137"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#323232;stroke-width:0.07;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 32.695096,6.0221993 V 7.4608457"
+           id="path6141"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#323232;stroke-width:0.07;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 33.043807,7.4608457 V 6.0174208"
+           id="path6143"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#323232;stroke-width:0.07;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 33.392516,7.4608457 V 6.0203318"
+           id="path6145"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.07;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 30.95625,5.9583269 4.62e-4,1.5025188 h 2.645371 V 5.9583269 Z"
+           id="stairs2-3-2"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.06974212px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 33.192285,6.7095862 H 31.378989 L 31.7277,6.8490706 V 6.5701019 l -0.348711,0.1394843"
+           id="path6163"
+           inkscape:connector-curvature="0" />
+      </g>
+      <g
+         id="g5851"
+         transform="translate(0,0.00826823)">
+        <path
+           style="fill:none;stroke:#323232;stroke-width:0.06998502px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 31.300252,8.7806057 v -1.31976"
+           id="path6149"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#323232;stroke-width:0.06992293px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 31.707916,8.7824728 V 7.4608457"
+           id="path6151"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#323232;stroke-width:0.07014509px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 32.115579,7.4608457 V 8.7821452"
+           id="path6153"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#323232;stroke-width:0.06991397px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 32.523241,8.7821452 V 7.4608457"
+           id="path6155"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.06974212px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 30.956712,7.4608457 -4.68e-4,1.4078979 h 1.852089 V 7.4608457 l -1.852083,2.318e-4"
+           id="path6147"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.06974212px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 31.179349,8.1647926 H 32.57419 L 32.155737,8.3042767 V 8.0253083 l 0.418453,0.1394843"
+           id="path6165"
+           inkscape:connector-curvature="0" />
+      </g>
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path6467"
+         d="M 0.26458333,5.4291601 H 2.1166666"
+         style="fill:none;stroke:#000000;stroke-width:0.15000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path6469"
+         d="m 2.9104166,5.4291601 h 5.55625"
+         style="fill:none;stroke:#000000;stroke-width:0.15000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:nodetypes="cc" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path6471"
+         d="M 4.7625,5.4291602 V 0.13749357"
+         style="fill:none;stroke:#000000;stroke-width:0.15000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path6473"
+         d="M 8.3919544,5.4306367 V 4.3723033"
+         style="fill:none;stroke:#000000;stroke-width:0.15000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path6475"
+         d="M 8.2919912,3.4415819 H 9.8861825"
+         style="fill:none;stroke:#000000;stroke-width:0.15000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path6477"
+         d="m 9.2604168,5.4291601 h 4.4979162 v 0.5291668 h 1.852084"
+         style="fill:none;stroke:#000000;stroke-width:0.15000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path6479"
+         d="M 13.758333,5.4291601 V 0.13749352"
+         style="fill:none;stroke:#000000;stroke-width:0.15000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path6481"
+         d="M 9.7895833,5.4169588 V 4.3708269"
+         style="fill:none;stroke:#000000;stroke-width:0.15000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path6483"
+         d="M 8.9958333,3.4060379 V 0.17409784"
+         style="fill:none;stroke:#000000;stroke-width:0.15000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path6485"
+         d="M 0.26458333,8.6041603 H 2.1166667"
+         style="fill:none;stroke:#000000;stroke-width:0.15000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path6487"
+         d="m 2.9104167,8.6041603 h 3.175 V 10.19166 H 8.73125 v 3.96875"
+         style="fill:none;stroke:#000000;stroke-width:0.15000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path6489"
+         d="M 13.758333,14.16041 V 8.8687436 l 1.849942,-0.013055"
+         style="fill:none;stroke:#000000;stroke-width:0.15000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path6493"
+         d="m 16.404167,8.8687436 h 2.910416"
+         style="fill:none;stroke:#000000;stroke-width:0.15000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path6495"
+         d="m 20.108333,8.8687436 h 2.38125"
+         style="fill:none;stroke:#000000;stroke-width:0.15000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path6497"
+         d="m 23.283333,8.8687436 h 2.645834"
+         style="fill:none;stroke:#000000;stroke-width:0.15000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path6499"
+         d="M 26.722917,8.8687436 H 28.575"
+         style="fill:none;stroke:#000000;stroke-width:0.15000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path6501"
+         d="M 26.722917,5.9583269 H 28.575"
+         style="fill:none;stroke:#000000;stroke-width:0.15000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path6503"
+         d="m 23.283333,5.9583269 h 2.645834"
+         style="fill:none;stroke:#000000;stroke-width:0.15000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path6505"
+         d="m 20.108333,5.9583269 h 2.38125"
+         style="fill:none;stroke:#000000;stroke-width:0.15000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path6507"
+         d="m 16.404167,5.9583269 h 2.910416"
+         style="fill:none;stroke:#000000;stroke-width:0.15000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path6509"
+         d="M 17.4625,5.9583269 V 0.13749357"
+         style="fill:none;stroke:#000000;stroke-width:0.15000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:nodetypes="cc" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path6511"
+         d="M 21.43125,5.9583269 V 0.13749357"
+         style="fill:none;stroke:#000000;stroke-width:0.15000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:nodetypes="cc" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path6513"
+         d="M 24.60625,5.9583269 V 0.13749357"
+         style="fill:none;stroke:#000000;stroke-width:0.15000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:nodetypes="cc" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path6515"
+         d="M 28.310417,5.9583269 V 0.13749357"
+         style="fill:none;stroke:#000000;stroke-width:0.15000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path6517"
+         d="M 28.045833,14.16041 V 8.8687436"
+         style="fill:none;stroke:#000000;stroke-width:0.15000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path6519"
+         d="M 24.60625,14.16041 V 8.8687436"
+         style="fill:none;stroke:#000000;stroke-width:0.15000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path6521"
+         d="M 20.902083,14.16041 V 8.8687436"
+         style="fill:none;stroke:#000000;stroke-width:0.15000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path6523"
+         d="M 17.4625,14.16041 V 8.8687436"
+         style="fill:none;stroke:#000000;stroke-width:0.15000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4514"
+         d="m 0.26500694,14.086348 v -5.9280809 0"
+         style="fill:none;stroke:#000000;stroke-width:0.15000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path4592"
+         d="m 0.26500694,8.8556883 3e-8,-2.7896852"
+         style="fill:none;stroke:#000000;stroke-width:0.15000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4594"
+         d="M 0.26500694,5.0198714 V 6.0660033"
+         style="fill:none;stroke:#000000;stroke-width:0.15000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path5818"
+         d="M 9.5249999,9.3979103 H 13.758333"
+         style="fill:none;stroke:#000000;stroke-width:0.15000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <path
+       style="opacity:0;fill:#00ff00;fill-opacity:0.19607843;stroke:none;stroke-width:0.07826973;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 4.2661631,6.9041025 3.3680771,-2e-7 V 5.503916 H 4.2677177 Z"
+       id="stairs23"
+       class="map-stairs map-stairs-up"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="opacity:0;fill:#00ff00;fill-opacity:0.19607843;stroke:none;stroke-width:0.08288438;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 33.60295,7.4593682 V 6.0138205 h -2.645833 v 1.4533136 z"
+       id="stairs23-2"
+       class="map-stairs map-stairs-up"
+       inkscape:connector-curvature="0" />
+    <path
+       style="opacity:0;fill:#00ff00;fill-opacity:0.19607843;stroke:none;stroke-width:0.0823991;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 30.957117,7.4854155 v 1.323411 h 1.853118 V 7.4843189 Z"
+       id="stairs21-2"
+       class="map-stairs map-stairs-down"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.88194442px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-10.371626"
+       y="-0.83888078"
+       id="text4611"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan4609"
+         x="-10.371626"
+         y="-0.83888078"
+         style="stroke-width:0.26458332">ул. Родионова</tspan></text>
+    <g
+       id="room-group-21">
+      <text
+         id="text4732-5-42"
+         y="2.9930012"
+         x="2.5143683"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.56444442px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.56444442px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+           y="2.9930012"
+           x="2.5143683"
+           id="tspan4730-8-3"
+           sodipodi:role="line">№21</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.49388888px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;opacity:1;fill:#008600;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1"
+         x="2.5137827"
+         y="3.4963295"
+         id="status21"
+         class="room-status"><tspan
+           style="stroke-width:0.26458332"
+           sodipodi:role="line"
+           id="tspan154"
+           x="2.5137827"
+           y="3.4963295">статус</tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         class="room-frame"
+         id="room21"
+         d="m 2.1157657,5.4233057 -1.85118237,0.00586 V 0.13749367 H 4.7624999 V 5.4291602 H 2.9104166 v 0"
+         style="opacity:0;fill:#0000ff;fill-opacity:0.19607843;stroke:#0000ff;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       id="room-group-22">
+      <text
+         id="text4732-5-42-0"
+         y="2.9930012"
+         x="6.8670402"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.56444442px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           y="2.9930012"
+           x="6.8670402"
+           id="tspan4735"
+           sodipodi:role="line">№22</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.49388888px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#008600;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1"
+         x="6.8794079"
+         y="3.4963295"
+         id="status22"
+         class="room-status"><tspan
+           style="stroke-width:0.26458332"
+           sodipodi:role="line"
+           id="tspan154-9"
+           x="6.8794079"
+           y="3.4963295">статус</tspan></text>
+      <path
+         sodipodi:nodetypes="cccccccc"
+         inkscape:connector-curvature="0"
+         class="room-frame"
+         id="room22"
+         d="m 8.3339582,4.375108 v 1.0481976 l -3.5714583,0.00586 V 0.13749357 H 8.9958332 V 3.4396646 l -0.6587324,0.00207 v 0.1316096"
+         style="opacity:0;fill:#0000ff;fill-opacity:0.19607843;stroke:#0000ff;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       id="room-group-23">
+      <text
+         id="text4732-5-42-0-5"
+         y="2.9930012"
+         x="11.370331"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.56444442px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           y="2.9930012"
+           x="11.370331"
+           id="tspan4737"
+           sodipodi:role="line">№23</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.49388888px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#008600;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1"
+         x="11.377324"
+         y="3.4963295"
+         id="status23"
+         class="room-status"><tspan
+           style="stroke-width:0.26458332"
+           sodipodi:role="line"
+           id="tspan154-9-4"
+           x="11.377324"
+           y="3.4963295">статус</tspan></text>
+      <path
+         sodipodi:nodetypes="cccccccc"
+         inkscape:connector-curvature="0"
+         class="room-frame"
+         id="room23"
+         d="m 9.781148,4.3665484 0.00843,1.0626117 h 3.968755 V 0.13749357 H 8.9958329 V 3.4414401 l 0.7808069,0.00243 5.013e-4,0.1267338"
+         style="opacity:0;fill:#0000ff;fill-opacity:0.19607843;stroke:#0000ff;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.81372549" />
+    </g>
+    <g
+       id="room-group-21-2">
+      <text
+         id="text4732-5-42-0-7"
+         y="2.9930012"
+         x="15.598289"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.56444442px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           y="2.9930012"
+           x="15.598289"
+           id="tspan4767"
+           sodipodi:role="line">№21-2</tspan></text>
+      <text
+         inkscape:label="#status21-2"
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.49388888px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#008600;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1"
+         x="15.610658"
+         y="3.4963295"
+         id="status21-1"
+         class="room-status"><tspan
+           style="stroke-width:0.26458332"
+           sodipodi:role="line"
+           id="tspan154-9-41"
+           x="15.610658"
+           y="3.4963295">статус</tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         class="room-frame"
+         id="room21-2"
+         d="M 15.610416,5.9583267 H 13.758333 V 0.13749357 H 17.4625 V 5.9583267 h -1.058334"
+         style="opacity:0;fill:#0000ff;fill-opacity:0.19607843;stroke:#0000ff;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       id="room-group-22-2">
+      <text
+         id="text4732-5-42-0-72"
+         y="2.9930012"
+         x="19.434748"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.56444442px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           y="2.9930012"
+           x="19.434748"
+           id="tspan4777"
+           sodipodi:role="line">№22-2</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.49388888px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#008600;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1"
+         x="19.447115"
+         y="3.4963295"
+         id="status22-2"
+         class="room-status"><tspan
+           style="stroke-width:0.26458332"
+           sodipodi:role="line"
+           id="tspan154-9-2"
+           x="19.447115"
+           y="3.4963295">статус</tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         class="room-frame"
+         id="room22-2"
+         d="M 19.314583,5.9583267 H 17.4625 V 0.13749357 h 3.96875 V 5.9583267 h -1.322917"
+         style="opacity:0;fill:#0000ff;fill-opacity:0.19607843;stroke:#0000ff;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       id="room-group-23-2">
+      <text
+         id="text4732-5-42-0-1"
+         y="2.9930012"
+         x="23.006622"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.56444442px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           y="2.9930012"
+           x="23.006622"
+           id="tspan4787"
+           sodipodi:role="line">№23-2</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.49388888px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#008600;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1"
+         x="23.01899"
+         y="3.4963295"
+         id="status23-2"
+         class="room-status"><tspan
+           style="stroke-width:0.26458332"
+           sodipodi:role="line"
+           id="tspan154-9-2-9"
+           x="23.01899"
+           y="3.4963295">статус</tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         class="room-frame"
+         id="room23-2"
+         d="M 22.489583,5.9583267 H 21.43125 V 0.13749357 h 3.175 V 5.9583267 h -1.322917"
+         style="opacity:0;fill:#0000ff;fill-opacity:0.19607843;stroke:#0000ff;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       id="room-group-24-2">
+      <text
+         id="text4732-5-42-0-3"
+         y="2.9930012"
+         x="26.446207"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.56444442px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           y="2.9930012"
+           x="26.446207"
+           id="tspan4797"
+           sodipodi:role="line">№24-2</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.49388888px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#008600;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1"
+         x="26.458574"
+         y="3.4963295"
+         id="status24-2"
+         class="room-status"><tspan
+           style="stroke-width:0.26458332"
+           sodipodi:role="line"
+           id="tspan154-9-2-9-3"
+           x="26.458574"
+           y="3.4963295">статус</tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         class="room-frame"
+         id="room24-2"
+         d="M 25.929166,5.9583267 H 24.60625 V 0.13749357 h 3.704166 V 5.9583267 h -1.5875"
+         style="opacity:0;fill:#0000ff;fill-opacity:0.19607843;stroke:#0000f9;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       id="room-group-25-2">
+      <text
+         id="text4732-5-42-0-81"
+         y="2.9930012"
+         x="32.066452"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.56444442px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           y="2.9930012"
+           x="32.066452"
+           id="tspan4807"
+           sodipodi:role="line">№25-2</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.49388888px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#008600;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1"
+         x="32.078819"
+         y="3.4963295"
+         id="status25-2"
+         class="room-status"><tspan
+           style="stroke-width:0.26458332"
+           sodipodi:role="line"
+           id="tspan154-9-2-9-3-7"
+           x="32.078819"
+           y="3.4963295">статус</tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         class="room-frame"
+         id="room25-2"
+         d="M 28.574999,5.9583267 H 28.310416 V 0.13749357 h 7.408333 0.127992 V 5.9664505 l -6.477992,-0.00812"
+         style="opacity:0;fill:#0000ff;fill-opacity:0.19607843;stroke:#0000ff;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       id="room-group-26-2">
+      <text
+         id="text4732-5-42-0-50"
+         y="11.550268"
+         x="31.934124"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.56444442px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           y="11.550268"
+           x="31.934124"
+           id="tspan4827"
+           sodipodi:role="line">№26-2</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.49388888px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#008600;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1"
+         x="31.946491"
+         y="12.080153"
+         id="status26-2"
+         class="room-status"><tspan
+           style="stroke-width:0.26458332"
+           sodipodi:role="line"
+           id="tspan154-9-2-9-3-7-8"
+           x="31.946491"
+           y="12.080153">статус</tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         class="room-frame"
+         id="room26-2"
+         d="m 29.379498,8.8684739 h 6.323517 0.127458 v 5.2217811 h -7.764959 l -0.0034,-5.2217811 h 0.52696"
+         style="opacity:0;fill:#0000ff;fill-opacity:0.19607843;stroke:#0000ff;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="room-group-27-2">
+      <text
+         id="text4732-5-42-0-37"
+         y="11.550268"
+         x="26.323168"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.56444442px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           y="11.550268"
+           x="26.323168"
+           id="tspan4837"
+           sodipodi:role="line">№27-2</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.49388888px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#008600;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1"
+         x="26.335535"
+         y="12.080153"
+         id="status27-2"
+         class="room-status"><tspan
+           style="stroke-width:0.26458332"
+           sodipodi:role="line"
+           id="tspan154-9-2-9-3-7-8-9"
+           x="26.335535"
+           y="12.080153">статус</tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         class="room-frame"
+         id="room27-2"
+         d="M 25.929166,8.8687433 H 24.60625 v 5.2236997 h 3.45763 L 28.04583,8.8687433 h -1.322916"
+         style="opacity:0;fill:#0000ff;fill-opacity:0.19607843;stroke:#0000fb;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       id="room-group-28-2">
+      <text
+         id="text4732-5-42-0-0"
+         y="11.551095"
+         x="22.749231"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.56444442px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           y="11.551095"
+           x="22.749231"
+           id="tspan4847"
+           sodipodi:role="line">№28-2</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.49388888px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#008600;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1"
+         x="22.761599"
+         y="12.080153"
+         id="status28-2"
+         class="room-status"><tspan
+           style="stroke-width:0.26458332"
+           sodipodi:role="line"
+           id="tspan154-9-2-9-3-7-8-9-1"
+           x="22.761599"
+           y="12.080153">статус</tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         class="room-frame"
+         id="room28-2"
+         d="m 22.489583,8.8687433 h -1.5875 V 14.08075 h 3.718195 L 24.60625,8.8687433 h -1.322916"
+         style="opacity:0;fill:#0000ff;fill-opacity:0.19607843;stroke:#0000fe;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       id="room-group-29-2">
+      <text
+         id="text4732-5-42-0-71"
+         y="11.550268"
+         x="19.174562"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.56444442px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           y="11.550268"
+           x="19.174562"
+           id="tspan4857"
+           sodipodi:role="line">№29-2</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.49388888px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#008600;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1"
+         x="19.18693"
+         y="12.080153"
+         id="status29-2"
+         class="room-status"><tspan
+           style="stroke-width:0.26458332"
+           sodipodi:role="line"
+           id="tspan154-9-2-9-3-7-8-9-1-6"
+           x="19.18693"
+           y="12.080153">статус</tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         class="room-frame"
+         id="room29-2"
+         d="M 19.314583,8.8687433 H 17.4625 v 5.2266227 h 3.448161 l -0.0086,-5.2266227 h -0.79375"
+         style="opacity:0;fill:#0000ff;fill-opacity:0.19607843;stroke:#0000fa;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       id="room-group-210-2">
+      <text
+         id="text4732-5-42-0-71-0"
+         y="11.550268"
+         x="15.599794"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.56444442px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           y="11.550268"
+           x="15.599794"
+           id="tspan4877"
+           sodipodi:role="line">№210-2</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.49388888px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#008600;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1"
+         x="15.612163"
+         y="12.080153"
+         id="status210-2"
+         class="room-status"><tspan
+           style="stroke-width:0.26458332"
+           sodipodi:role="line"
+           id="tspan154-9-2-9-3-7-8-9-1-6-0"
+           x="15.612163"
+           y="12.080153">статус</tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         class="room-frame"
+         id="room210-2"
+         d="M 15.610416,8.8687433 H 13.758333 V 14.09829 h 3.707101 L 17.4625,8.8687433 h -1.058333"
+         style="opacity:0;fill:#0000ff;fill-opacity:0.19607843;stroke:#0000fa;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       id="room-group-24">
+      <text
+         id="text4732-5-42-0-8"
+         y="11.550268"
+         x="11.229017"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.56444442px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           y="11.550268"
+           x="11.229017"
+           id="tspan4747"
+           sodipodi:role="line">№24</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.49388888px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#008600;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1"
+         x="11.244279"
+         y="12.080153"
+         id="status24"
+         class="room-status"><tspan
+           style="stroke-width:0.26458332"
+           sodipodi:role="line"
+           id="tspan154-9-2-9-3-7-8-9-1-6-0-4"
+           x="11.244279"
+           y="12.080153">статус</tspan></text>
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         class="room-frame"
+         id="room24"
+         d="m 8.7312499,10.117246 -0.00146,3.970082 5.0285451,-0.0029 V 9.39791 H 9.5249999"
+         style="opacity:0;fill:#0000ff;fill-opacity:0.19607843;stroke:#0000ff;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="room-group-25">
+      <text
+         id="text4732-5-42-0-6"
+         y="11.550268"
+         x="4.4901996"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.56444442px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           y="11.550268"
+           x="4.4901996"
+           id="tspan4757"
+           sodipodi:role="line">№25</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.49388888px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#008600;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1"
+         x="4.498158"
+         y="12.080153"
+         id="status25"
+         class="room-status"><tspan
+           style="stroke-width:0.26458332"
+           sodipodi:role="line"
+           id="tspan154-9-2-9-3-7-8-9-1-6-0-4-4"
+           x="4.498158"
+           y="12.080153">статус</tspan></text>
+      <path
+         inkscape:label="#room25"
+         sodipodi:nodetypes="cccccccccc"
+         inkscape:connector-curvature="0"
+         class="room-frame"
+         id="room25"
+         d="M 2.1166666,8.60416 H 0.26458333 v 5.481836 H 8.7312499 V 10.19166 H 6.0854166 v -1.5875 h -3.175 v 0 0"
+         style="opacity:0;fill:#0000ff;fill-opacity:0.19607843;stroke:#0000ff;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>
