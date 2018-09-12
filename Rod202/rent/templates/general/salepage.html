@@ -134,6 +134,7 @@
     							<div class="application-form-cell">
     								<label>{{ field.label }}</label>
     							</div>
+<!--
     							{% if field.name == "roomNumber" %}
     								<div class="application-form-cell">
     									{{ field }}
@@ -151,8 +152,24 @@
     									{{ field }}
     								</div>
     							{% endif %}
+-->
+								<div class="application-form-cell">
+    									{{ field }}
+    							</div>
     						</div>
     					{% endfor %}
+    					<div class="application-form-line">
+    						<select class="application-room-multiple-select" multiple size="5" hidden></select>
+							<label for="application-room-multiple-selected">Выбранные комнаты:</label>
+							<div id="application-room-multiple-selected" class="application-room-multiple-selected"></div>
+							<label for="application-room-multiple-options">Свободные комнаты:</label>
+							<div id="application-room-multiple-options" class="application-room-multiple-options">
+								{% for room in free_rooms %}
+									<div class="application-room-multiple-option" name="application-room-{{ room.roomNumber }}">{{ room.roomNumber }}</div>
+								{% endfor %}
+							</div>
+    					</div>
+    					<br>
     					<button type="submit">Отправить запрос</button>
 					</form>
 				</div>
