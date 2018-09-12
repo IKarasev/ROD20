@@ -385,6 +385,83 @@ a {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#999999', endColorstr='#999999',GradientType=0 );
 }
 
+.application-room-multiple-wrapper {
+	color: #000;
+	font-size: 1.2em;
+	font-family: sans-serif;
+}
+
+.application-room-multiple-wrapper label {
+	color: #FFF;
+}
+
+.application-room-multiple-select {
+	width: 500px;
+}
+
+.application-room-multiple-selected, .application-room-multiple-options {
+	display: block;
+	overflow-x: auto;
+	overflow-y: hidden;
+	white-space: nowrap;
+	width: 20em;
+	border: none;
+	border-bottom: 1px solid #777;
+	margin: 0;
+	padding: 0.5em 1em;
+	background: none;
+	vertical-align: middle;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select:none;
+	user-select:none;
+	-o-user-select:none;
+}
+
+.application-room-multiple-selected::-webkit-scrollbar, .application-room-multiple-options::-webkit-scrollbar {
+	height: 0.3em;
+}
+
+.application-room-multiple-selected::-webkit-scrollbar-track, .application-room-multiple-options::-webkit-scrollbar-track {
+	background-color: #DDD;
+}
+
+.application-room-multiple-selected::-webkit-scrollbar-thumb, .application-room-multiple-options::-webkit-scrollbar-thumb {
+	background: rgb(255,255,255);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 50%, rgba(255,255,255,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(0,0,0,1) 50%,rgba(255,255,255,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(0,0,0,1) 50%,rgba(255,255,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+}
+
+.application-room-multiple-selected::-webkit-scrollbar-button, .application-room-multiple-options::-webkit-scrollbar-button {
+	background-color: #333;
+}
+
+.application-room-multiple-option {
+	display: inline-block;
+	padding: 0.1em 0.4em;
+	background-color: #444;
+	margin: 0 0.1em;
+	text-align: center;
+	border: 0 solid #000;
+	border-radius: 0.3em;
+	font-weight: bold;
+}
+
+.application-room-multiple-selected .application-room-multiple-option {
+	background-color: #FFF;
+}
+
+.application-room-multiple-options .application-room-multiple-option {
+	background-color: #EEE;
+}
+
+.application-room-multiple-option:hover {
+	background-color: #999;
+	color: #FFF;
+}
+
 .contacts-row {
 	border-bottom: 1px solid #777;
 	color: #FFF;
