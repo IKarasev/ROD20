@@ -113,9 +113,28 @@ $(document).ready(function() {
 		$(".free-rooms-none-row").css("display","none");
 	}
 
+	// Application: adding room number from evailable to selected on click
+	$('.application-room-multiple-options').on("click",".application-room-multiple-option",function () {
+		var roomNumber = $(this).text();
+		$('.application-room-multiple-selected').append($(this).clone());
+		$(this).remove();
+		$('.application-room-multiple-select')
+		.append($('<option>', { 'value':roomNumber })
+		.text(roomNumber)
+		.prop('selected', true));
+	});
+
+	// Application: removing room number from selected on click
+	$('.application-room-multiple-selected').on("click",".application-room-multiple-option",function () {
+		var roomNumber = $(this).text();
+		$('.application-room-multiple-options').append($(this).clone());
+		$(this).remove();
+		$('.application-room-multiple-select > option[value="'+roomNumber+'"').remove();
+	});
+
 	// Operations after all content is loaded
 	$(window).on("load",function() {
-		// Managing floors maps in SVG (after all page content is loaded)
+		// Managing floor maps in SVG (after all page content is loaded)
 		animateMapSVG("imap1","floor1");
 		animateMapSVG("imap2","floor2");
 		animateMapSVG("imap3","floor3");
