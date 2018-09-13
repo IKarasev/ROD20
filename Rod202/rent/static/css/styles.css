@@ -47,6 +47,9 @@ a {
 	background: -webkit-linear-gradient(top,  rgba(230,0,0,1) 0%,rgba(230,0,0,0.85) 88%,rgba(230,0,0,0.6) 100%);
 	background: linear-gradient(to bottom,  rgba(230,0,0,1) 0%,rgba(230,0,0,0.85) 88%,rgba(230,0,0,0.6) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e60000', endColorstr='#99e60000',GradientType=0 );
+	-webkit-box-shadow: 0px 3px 1px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 3px 1px 0px rgba(0,0,0,0.5);
+	box-shadow: 0px 3px 1px 0px rgba(0,0,0,0.5);
 }
 
 .address-row{
@@ -112,6 +115,7 @@ a {
 	-webkit-box-shadow: 0px -2px 2px 0px rgba(0,0,0,0.5);
 	-moz-box-shadow: 0px -2px 2px 0px rgba(0,0,0,0.5);
 	box-shadow: 0px -2px 2px 0px rgba(0,0,0,0.5);
+	background-color: #ff0000;
 }
 
 .back-to-top-button {
@@ -155,11 +159,12 @@ a {
 	padding-top:20px;
 	padding-bottom: 20px;
 	color: #01195c;
-	background: #fffb00;
+	background: #fff;
+	/*background: #fffb00;
 	background: -moz-linear-gradient(left, #fffb00 0%, #ffffff 5%, #ffffff 95%, #fffb00 100%);
 	background: -webkit-linear-gradient(left, #fffb00 0%,#ffffff 5%,#ffffff 95%,#fffb00 100%);
 	background: linear-gradient(to right, #fffb00 0%,#ffffff 5%,#ffffff 95%,#fffb00 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffb00', endColorstr='#fffb00',GradientType=1 );
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffb00', endColorstr='#fffb00',GradientType=1 );*/
 }
 
 .punchline-column-info {
@@ -201,10 +206,10 @@ a {
 	padding-top: 1em;
 	color: #000;
 	background: #ffa703;
-	background: -moz-linear-gradient(left, #ffa703 0%, #ffffff 5%, #ffffff 95%, #ffa703 100%);
+	/*background: -moz-linear-gradient(left, #ffa703 0%, #ffffff 5%, #ffffff 95%, #ffa703 100%);
 	background: -webkit-linear-gradient(left, #ffa703 0%,#ffffff 5%,#ffffff 95%,#ffa703 100%);
 	background: linear-gradient(to right, #ffa703 0%,#ffffff 5%,#ffffff 95%,#ffa703 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa703', endColorstr='#ffa703',GradientType=1 );
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa703', endColorstr='#ffa703',GradientType=1 );*/
 }
 
 .free-rooms-title {
@@ -213,7 +218,7 @@ a {
 	font-size: 2em;
 	font-weight: bold;
 	text-align: center;
-	text-shadow: 1px 1px 0px #888;
+	text-shadow: 1px 1px 2px 1px #888;
  }
 
 .free-rooms-row table {
@@ -228,6 +233,7 @@ a {
 
 .free-rooms-row table tr {
 	border-bottom: 1px solid #DDD;
+	text-shadow: 1px 2px 3px #cc8500;
 }
 
 .free-rooms-row table tr:hover {
@@ -246,12 +252,18 @@ a {
 }
 
 .free-rooms-row table td button {
-	border: 1px solid #ffbf2b;
-	border-radius: 0.2em;
+	border: none;
+	border-radius: 0em;
 	background-color: #FFF;
-	-webkit-box-shadow: inset 0px 0px 3px 0px rgba(255,167,3,1);
-	-moz-box-shadow: inset 0px 0px 3px 0px rgba(255,167,3,1);
-	box-shadow: inset 0px 0px 3px 0px rgba(255,167,3,1);
+	-webkit-box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.75);
+}
+
+.free-rooms-row table td button:hover {
+	-webkit-box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.75);	
 }
 
 .free-rooms-none-row {
@@ -269,10 +281,10 @@ a {
 	margin: none;
 	padding: none;
 	background: #516bff;
-	background: -moz-linear-gradient(left, #516bff 0%, #ffffff 5%, #ffffff 95%, #516bff 100%);
+	/*background: -moz-linear-gradient(left, #516bff 0%, #ffffff 5%, #ffffff 95%, #516bff 100%);
 	background: -webkit-linear-gradient(left, #516bff 0%,#ffffff 5%,#ffffff 95%,#516bff 100%);
 	background: linear-gradient(to right, #516bff 0%,#ffffff 5%,#ffffff 95%,#516bff 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#516bff', endColorstr='#516bff',GradientType=1 );
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#516bff', endColorstr='#516bff',GradientType=1 );*/
 }
 
 .rooms-plan-wrapper {
@@ -288,8 +300,8 @@ a {
 	font-size: 2em;
 	font-weight: bold;
 	padding-top: 1.5em;
-	color: #516bff;
-	text-shadow: 1px 1px 0px #0026ff;
+	color: #fff;
+	text-shadow: 1px 2px 2px #222;
 }
 .rooms-plan-object {
 	display: block;
@@ -304,15 +316,17 @@ a {
 }
 
 .rooms-plan-carousel-navbuttons button {
-	background-color: #FFF;
+	background-color: #516bff;
 	border: none;
 	margin: auto 1em;
 	font-size: 1.2em;
 	outline: none;
+	color: #fff;
+	text-shadow: 0px 2px 5px #222;
 }
 
 .rooms-plan-carousel-navbuttons button:hover {
-	text-shadow: 0px 1px 2px #0026ff;
+	text-shadow: 0px 4px 8px #222;
 }
 
 .application-form-row, .contacts-row{

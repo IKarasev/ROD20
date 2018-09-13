@@ -14,7 +14,7 @@
    viewBox="0 0 37.459133 14.22538"
    version="1.1"
    id="floor2"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="0.92.1 r15371"
    sodipodi:docname="floor2.svg">
   <defs
      id="defs2" />
@@ -25,15 +25,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="31.999999"
-     inkscape:cx="21.52705"
-     inkscape:cy="21.540518"
+     inkscape:zoom="45.254833"
+     inkscape:cx="124.56198"
+     inkscape:cy="24.587143"
      inkscape:document-units="mm"
-     inkscape:current-layer="g6085"
+     inkscape:current-layer="layer1"
      showgrid="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-4"
+     inkscape:window-width="1366"
+     inkscape:window-height="703"
+     inkscape:window-x="1276"
      inkscape:window-y="-4"
      inkscape:window-maximized="1"
      inkscape:snap-global="false"
@@ -66,14 +66,6 @@
      id="layer1"
      style="display:inline"
      transform="translate(1.4800992,-0.00520191)">
-    <rect
-       style="fill:#ffffff;fill-opacity:1;stroke-width:1.1343416"
-       id="rect4675"
-       width="35.586845"
-       height="13.982783"
-       x="0.24232446"
-       y="0.10603548"
-       inkscape:label="floor2-backgound" />
     <g
        id="g5915">
       <path
@@ -134,7 +126,7 @@
            inkscape:connector-curvature="0" />
         <path
            style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           d="m 32.332596,39.1074 v 7.9375 l -0.529167,-1.322916 h 1.058334 L 32.332596,47.0449"
+           d="m 32.332596,47.094032 v -7.9375 l -0.529167,1.322916 h 1.058334 l -0.529167,-1.322916"
            id="path6074"
            inkscape:connector-curvature="0" />
         <path
@@ -197,7 +189,7 @@
            sodipodi:nodetypes="ccccc" />
         <path
            style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.06974212px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           d="m 31.366038,6.7095862 h 1.813296 L 32.830623,6.8490706 V 6.5701019 l 0.348711,0.1394843"
+           d="M 33.192285,6.7095862 H 31.378989 L 31.7277,6.8490706 V 6.5701019 l -0.348711,0.1394843"
            id="path6163"
            inkscape:connector-curvature="0" />
       </g>
@@ -236,7 +228,7 @@
            sodipodi:nodetypes="ccccc" />
         <path
            style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.06974212px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           d="m 32.585217,8.1647926 h -1.394841 l 0.418453,0.1394841 V 8.0253083 l -0.418453,0.1394843"
+           d="M 31.179349,8.1647926 H 32.57419 L 32.155737,8.3042767 V 8.0253083 l 0.418453,0.1394843"
            id="path6165"
            inkscape:connector-curvature="0" />
       </g>
@@ -430,13 +422,12 @@
          style="fill:none;stroke:#000000;stroke-width:0.15000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
     <path
-       style="display:inline;opacity:0;fill:#00ff00;fill-opacity:0.19607843;stroke:none;stroke-width:0.07826973;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 7.6342402,6.9041025 -3.3680771,-2e-7 V 5.503916 h 3.3665225 z"
+       style="opacity:0;fill:#00ff00;fill-opacity:0.19607843;stroke:none;stroke-width:0.07826973;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 4.2661631,6.9041025 3.3680771,-2e-7 V 5.503916 H 4.2677177 Z"
        id="stairs23"
        class="map-stairs map-stairs-up"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc"
-       inkscape:label="stairs23" />
+       sodipodi:nodetypes="ccccc" />
     <path
        style="opacity:0;fill:#00ff00;fill-opacity:0.19607843;stroke:none;stroke-width:0.08288438;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 33.60295,7.4593682 V 6.0138205 h -2.645833 v 1.4533136 z"

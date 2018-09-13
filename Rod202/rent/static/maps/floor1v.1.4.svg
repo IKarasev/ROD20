@@ -14,7 +14,7 @@
    viewBox="0 0 141.58719 53.927753"
    version="1.1"
    id="floor1"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="0.92.1 r15371"
    sodipodi:docname="floor1.svg">
   <defs
      id="defs2" />
@@ -25,15 +25,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="31.999999"
-     inkscape:cx="133.83543"
-     inkscape:cy="30.300226"
+     inkscape:zoom="22.627416"
+     inkscape:cx="123.95278"
+     inkscape:cy="31.480631"
      inkscape:document-units="mm"
-     inkscape:current-layer="g6173"
+     inkscape:current-layer="layer1"
      showgrid="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-4"
+     inkscape:window-width="1366"
+     inkscape:window-height="703"
+     inkscape:window-x="1276"
      inkscape:window-y="-4"
      inkscape:window-maximized="1"
      inkscape:snap-global="false"
@@ -75,14 +75,6 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(6.0865952,-0.16526151)">
-    <rect
-       id="rect3890"
-       width="135.54074"
-       height="53.677574"
-       x="-0.0084697129"
-       y="0.3820751"
-       style="fill:#ffffff;fill-opacity:1;stroke-width:3.48478079"
-       inkscape:label="floor1-backgorund" />
     <g
        id="g4768"
        style="fill:none;fill-opacity:1">
@@ -339,7 +331,7 @@
       <path
          inkscape:connector-curvature="0"
          id="path6165"
-         d="m 25.135416,125.85641 v -5.29166 l -0.529166,1.5875 h 1.058333 l -0.529167,-1.5875"
+         d="m 25.135416,120.52292 v 5.29166 l -0.529166,-1.5875 h 1.058333 l -0.529167,1.5875"
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     </g>
     <path
@@ -400,7 +392,7 @@
       <path
          inkscape:connector-curvature="0"
          id="path6074"
-         d="m 32.411458,38.188369 v 7.9375 l -0.529167,-1.322916 h 1.058334 l -0.529167,1.322916"
+         d="m 32.411458,46.175001 v -7.9375 l -0.529167,1.322916 h 1.058334 l -0.529167,-1.322916"
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
       <path
          inkscape:connector-curvature="0"
@@ -454,7 +446,7 @@
       <path
          inkscape:connector-curvature="0"
          id="path6163"
-         d="m 30.21716,121.56337 v 6.87917 l -0.529167,-1.32292 h 1.058334 l -0.529167,1.32292"
+         d="m 30.21716,128.49167 v -6.87917 l -0.529167,1.32292 h 1.058334 L 30.21716,121.6125"
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     </g>
     <path
