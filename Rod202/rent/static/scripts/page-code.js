@@ -39,6 +39,50 @@ function animateMapSVG(object_id, map_id) {
 		};
 }
 
+// function: determins which is the first element of array is on screen
+//		elementsArray: Map(), dictionary whith tags ids as keys and their bottom coordinate as value
+//		screenHeigh: Integer, the height of the screen
+// retrun: string - the dictionary key of the element tha is on the screen
+function getCurrentChapter(elementsArray, screenHeight) {
+	var cPosition = $(document).scrollTop() + screenHeight/2; 
+	var cChapter;
+	for (const item of elementsArray.entries()) {
+		if (cPosition < item[1]) {
+			break;
+		};
+		cChapter = item[0];	
+	};
+	return cChapter;
+}
+
+// function: moves screen to the next chapter
+//		elementsArray: Map(), dictionary whith tags ids as keys and their bottom coordinate as value
+//		menuHeigh: Integer, the height of the menu
+function moveToNextChapter(elementsArray, screenHeight, menuHight) {
+	var cPosition = $(document).scrollTop(); 
+	var cChapter;
+	for (const item of elementsArray.entries()) {
+		cChapter = item[0];
+		if (cPosition < item[1]) {break;};
+	};
+
+	scrollTo($("#"+cChapter), menuHight);
+}
+
+// function: moves screen to the next chapter
+//		elementsArray: Map(), dictionary whith tags ids as keys and their bottom coordinate as value
+//		screenHeigh: Integer, the height of the screen
+//		menuHeigh: Integer, the height of the menu
+function moveToPrevChapter(elementsArray, screenHeight, menuHight) {
+	var cPosition = $(document).scrollTop() - screenHeight; 
+	var cChapter;
+	for (const item of elementsArray.entries()) {
+		cChapter = item[0];
+		if (cPosition < item[1]) {break;};
+	};
+	scrollTo($("#"+cChapter), menuHight);
+}
+
 //	function: finding the needed room and applying needed style to frame and text
 function fillMapSvg(floor, roomId, occupied) {
 	var map_object = document.getElementById("imap"+floor);
@@ -56,23 +100,75 @@ function fillMapSvg(floor, roomId, occupied) {
 	}
 }
 
-// Start working after page loaded
-$(document).ready(function() {
-	// Measure screen size
-	var screenWidth = $(document).width();
-	var screenHeight = $(window).height();
+function updateSizes(screenWidth, screenHeight, menuHight, lineHeight) {
 	// Fix first page row to bottom of the menue
-	var menuHight = $(".top-menu-wrapper").height();
 	$(".page-wrapper").css("top", menuHight);
 
 	// Set page rows hight to screen height
-	var lineHeight = screenHeight - menuHight
 	$(".screen-height").css("min-height",""+lineHeight+"px");
 
 	// Fix to-top arrow button
 	$(".back-to-top-button").css("top", menuHight + 5).css("left","10px");
 
-	// Naviagating via menue
+	// Positioning elemnt in .vertical-middle in the middle of the parent
+	$(".vertical-middle").each(function(){
+		var parentHeight = $(this).parent().height();
+		var objHeight    = $(this).height();
+		var marginTop    = 0.6*((parentHeight - objHeight)/2);
+		$(this).css("top",marginTop);
+	});
+}
+
+// Start working after page loaded
+$(document).ready(function() {
+	// Measure screen size
+	var screenWidth  = $(document).width();
+	var screenHeight = $(window).height();
+	var menuHight    = $(".top-menu-wrapper").height();
+	var lineHeight   = screenHeight - menuHight;
+	var chaptersTops  = new Map();
+	
+	updateSizes(screenWidth, screenHeight, menuHight, lineHeight)
+
+	// // Fix first page row to bottom of the menue
+	// $(".page-wrapper").css("top", menuHight);
+
+	// // Set page rows hight to screen height
+	// $(".screen-height").css("min-height",""+lineHeight+"px");
+
+	// // Fix to-top arrow button
+	// $(".back-to-top-button").css("top", menuHight + 5).css("left","10px");
+
+	// Getting chapters top positions
+	$(".page-chapter").each(function(){
+		chaptersTops.set($(this).attr("id"), $(this).position().top);
+	});
+
+	$(window).resize(function(e){
+		var screenWidth  = $(document).width();
+		var screenHeight = $(window).height();
+		var menuHight    = $(".top-menu-wrapper").height();
+		var lineHeight   = screenHeight - menuHight;
+		var chaptersTops  = new Map();
+	
+		updateSizes(screenWidth, screenHeight, menuHight)
+
+		// // Fix first page row to bottom of the menue
+		// $(".page-wrapper").css("top", menuHight);
+
+		// // Set page rows hight to screen height
+		// $(".screen-height").css("min-height",""+lineHeight+"px");
+
+		// // Fix to-top arrow button
+		// $(".back-to-top-button").css("top", menuHight + 5).css("left","10px");
+
+		// Getting chapters top positions
+		$(".page-chapter").each(function(){
+			chaptersTops.set($(this).attr("id"), $(this).position().top);
+		});
+	});
+	
+	// Page naviagetion
 	// Navigating to top of the page
 	$(".back-to-top-button, #navButtonPunchline").click(function() {
 		$('html,body').animate({scrollTop: 0}, 'slow');
@@ -96,6 +192,21 @@ $(document).ready(function() {
 	// Navigate to application
 	$("#navButtonApplication").click(function(){
 		scrollTo($(".application-form-row"), menuHight);
+	});
+
+
+	// Navigating by page chapters whith mouse wheel
+	$(window).bind('mousewheel DOMMouseScroll', function(event){
+    	if (event.originalEvent.wheelDelta > 0 || event.originalEvent.detail < 0) {
+        	// wheel up
+        	moveToPrevChapter(chaptersTops, screenHeight, menuHight);
+        	return false;
+    	}
+    	else {
+    		// wheel down
+    		moveToNextChapter(chaptersTops, screenHeight, menuHight);
+    		return false;
+     	}
 	});
 
 	// Managing floor plans carousel

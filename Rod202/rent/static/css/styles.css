@@ -29,6 +29,13 @@ a {
 	width: 99vw;
 }
 
+.vertical-middle {
+	position: relative;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
 .float-break {
 	clear: both;
 }
