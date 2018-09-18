@@ -100,6 +100,11 @@ function fillMapSvg(floor, roomId, occupied) {
 	}
 }
 
+// functions: updates sizes of page elements
+//		screenWidth:  Integer, the width of the browser page window
+//		screenHeight: Integer, the height of the browser page window
+//		menuHight:    Integer, the height of the upper menu bar
+//		lineHeight:   Integer, the height of the chapter line
 function updateSizes(screenWidth, screenHeight, menuHight, lineHeight) {
 	// Fix first page row to bottom of the menue
 	$(".page-wrapper").css("top", menuHight);
@@ -119,6 +124,35 @@ function updateSizes(screenWidth, screenHeight, menuHight, lineHeight) {
 	});
 }
 
+// function: takes choosen rooms from .application-room-multiple-selected, condigures string list
+//		     and puts it in #applicationRoomNumbers
+function setApplicationRooms() {
+	var roomsList = "";
+	$(".application-room-multiple-selected > .application-room-multiple-option").each(function(){
+		roomsList += $(this).text()+"; ";
+	});
+	$("#applicationRoomNumbers > input").val(roomsList);
+}
+
+// function: removing the room otion from .application-room-multiple-options and addin it
+//			 to .application-room-multiple-selected with given room number
+//		roomNumber: String, room number to add to selected
+function addApplicationRoomSelected(roomNumber) {
+	$roomOption = $('.application-room-multiple-options > .application-room-multiple-option:contains("'+roomNumber+'")').first(); 
+	$('.application-room-multiple-selected').append($roomOption.clone());
+	$roomOption.remove();
+	setApplicationRooms();
+}
+
+// function: removing the room otion from .application-room-multiple-selected and addin it
+//			 to .application-room-multiple-options with given room number
+//		roomNumber: String, room number to add to selected
+function removeApplicationRoomSelected(roomNumber) {
+	$roomOption = $('.application-room-multiple-selected > .application-room-multiple-option:contains("'+roomNumber+'")').first(); 
+	$('.application-room-multiple-options').append($roomOption.clone());
+	$roomOption.remove();
+	setApplicationRooms();
+}
 // Start working after page loaded
 $(document).ready(function() {
 	// Measure screen size
@@ -129,15 +163,6 @@ $(document).ready(function() {
 	var chaptersTops  = new Map();
 	
 	updateSizes(screenWidth, screenHeight, menuHight, lineHeight)
-
-	// // Fix first page row to bottom of the menue
-	// $(".page-wrapper").css("top", menuHight);
-
-	// // Set page rows hight to screen height
-	// $(".screen-height").css("min-height",""+lineHeight+"px");
-
-	// // Fix to-top arrow button
-	// $(".back-to-top-button").css("top", menuHight + 5).css("left","10px");
 
 	// Getting chapters top positions
 	$(".page-chapter").each(function(){
@@ -153,22 +178,13 @@ $(document).ready(function() {
 	
 		updateSizes(screenWidth, screenHeight, menuHight)
 
-		// // Fix first page row to bottom of the menue
-		// $(".page-wrapper").css("top", menuHight);
-
-		// // Set page rows hight to screen height
-		// $(".screen-height").css("min-height",""+lineHeight+"px");
-
-		// // Fix to-top arrow button
-		// $(".back-to-top-button").css("top", menuHight + 5).css("left","10px");
-
 		// Getting chapters top positions
 		$(".page-chapter").each(function(){
 			chaptersTops.set($(this).attr("id"), $(this).position().top);
 		});
 	});
 	
-	// Page naviagetion
+	// ----- Page naviagetion -------
 	// Navigating to top of the page
 	$(".back-to-top-button, #navButtonPunchline").click(function() {
 		$('html,body').animate({scrollTop: 0}, 'slow');
@@ -190,10 +206,9 @@ $(document).ready(function() {
 	});
 
 	// Navigate to application
-	$("#navButtonApplication").click(function(){
+	$("#navButtonApplication, #contactsApplicationLink, .free-rooms-to-application").click(function(){
 		scrollTo($(".application-form-row"), menuHight);
 	});
-
 
 	// Navigating by page chapters whith mouse wheel
 	$(window).bind('mousewheel DOMMouseScroll', function(event){
@@ -209,7 +224,7 @@ $(document).ready(function() {
      	}
 	});
 
-	// Managing floor plans carousel
+	// ----- Managing floor plans carousel -------
 	$(".rooms-plan-carousel").slick({
 		arrow: false,
 		dots: true,
@@ -224,15 +239,28 @@ $(document).ready(function() {
 		$(".free-rooms-none-row").css("display","none");
 	}
 
+	// Adding room to application from free-rooms-table
+	$(".free-rooms-table-button-check").click(function() {
+		$(this).hide();
+		$(this).parent().find(".free-rooms-table-button-uncheck").show();
+		var roomNumber = $(this).parent().parent().find("td:first").text();
+		addApplicationRoomSelected(roomNumber);
+	});
+
+	// Removing room from application via free-rooms-table
+	$(".free-rooms-table-button-uncheck").click(function() {
+		$(this).hide();
+		$(this).parent().find(".free-rooms-table-button-check").show();
+		var roomNumber = $(this).parent().parent().find("td:first").text();
+		removeApplicationRoomSelected(roomNumber);
+	});
+
 	// Application: adding room number from evailable to selected on click
 	$('.application-room-multiple-options').on("click",".application-room-multiple-option",function () {
 		var roomNumber = $(this).text();
 		$('.application-room-multiple-selected').append($(this).clone());
 		$(this).remove();
-		$('.application-room-multiple-select')
-		.append($('<option>', { 'value':roomNumber })
-		.text(roomNumber)
-		.prop('selected', true));
+		setApplicationRooms();
 	});
 
 	// Application: removing room number from selected on click
@@ -240,7 +268,7 @@ $(document).ready(function() {
 		var roomNumber = $(this).text();
 		$('.application-room-multiple-options').append($(this).clone());
 		$(this).remove();
-		$('.application-room-multiple-select > option[value="'+roomNumber+'"').remove();
+		setApplicationRooms();
 	});
 
 	// Operations after all content is loaded

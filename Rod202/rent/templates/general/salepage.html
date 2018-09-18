@@ -73,10 +73,11 @@
 							<td>{{ room.roomNumber }}</td>
 							<td>{{ room.floor }}</td>
 							<td>{{ room.price|decimalformat }}</td>
-							<td><button class="free-rooms-table-button"><i class="fas fa-cart-plus"></i></button></td>
+							<td><button class="free-rooms-table-button-check"><i class="fas fa-cart-plus"></i></button><button hidden class="free-rooms-table-button-uncheck"><i class="fas fa-check"></i></button></td>
 						</tr>
 					{% endfor %}
 				</table>
+				<div class="layout-row free-rooms-title"><button class="free-rooms-to-application"><i class="fas fa-angle-double-down"></i> К заявке</button></div>
 				<div class="layout-row free-rooms-none-row">
 					К сожалению все комнаты заняты :(
 				</div>
@@ -123,8 +124,8 @@
 							</tr>
 						</table>
 					</div>
-					<div class="layout-row contacts-title">
-						Или оставьте заявку прямо сейчас!
+					<div class="layout-row contacts-title" id="contactsApplicationLink">
+						<a class="contacts-naviage-application">Или оставьте заявку прямо сейчас!</a>
 					</div>
 				</div>
 			</div>
@@ -141,7 +142,11 @@
     								<div class="application-form-cell">
     									<label>{{ field.label }}</label>
     								</div>
-									<div class="application-form-cell">
+    								{% if field.name == "roomNumber" %}
+										<div class="application-form-cell" id="applicationRoomNumbers">
+									{% else %}
+										<div class="application-form-cell">
+									{% endif %}
     										{{ field }}
     								</div>
     							</div>
@@ -151,13 +156,12 @@
     								<label>Укажите комнаты*</label>
     							</div>
     							<div class="application-form-cell">
-    								<select class="application-room-multiple-select" multiple size="5" hidden></select>
 									<label for="application-room-multiple-selected">Выбранные комнаты:</label>
 									<div id="application-room-multiple-selected" class="application-room-multiple-selected"></div>
 									<label for="application-room-multiple-options">Свободные комнаты:</label>
 									<div id="application-room-multiple-options" class="application-room-multiple-options">
 										{% for room in free_rooms %}
-											<div class="application-room-multiple-option" name="application-room-{{ room.roomNumber 	}}">{{ room.roomNumber }}</div>
+											<div class="application-room-multiple-option" name="applicationRoom{{ room.roomNumber }}">{{ room.roomNumber }}</div>
 										{% endfor %}
 									</div>
 	    						</div>

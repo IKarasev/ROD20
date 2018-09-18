@@ -13,11 +13,11 @@ class ApplicationForm(forms.Form):
     	'invalid': u'Пожалуйста, введите верное значение',
 	}
 
-	name = forms.CharField(label='Как к вам обращаться:', max_length=150, error_messages=def_error_msgs)
+	name = forms.CharField(label='Как к Вам обращаться:', max_length=150, error_messages=def_error_msgs)
 	back_email = forms.EmailField(label='Ваша электронная почта:', max_length=30, error_messages=def_error_msgs)
-	phone = forms.CharField(label='Номер телефона:', max_length=150, required=False)
-	#roomNumber = forms.MultipleChoiceField(label='Номер офиса:', widget=forms.SelectMultiple(), choices=options, required=False, error_messages=def_error_msgs)
-	description = forms.CharField(label='Задайте Ваш вопрос:', max_length=300, required=False, widget=forms.Textarea)
+	phone = forms.CharField(label='Ваш номер телефона:', max_length=150, required=False)
+	description = forms.CharField(label='Задайте нам вопрос:', max_length=300, required=False, widget=forms.Textarea)
+	roomNumber = forms.CharField(label='Номера комнат', max_length=300, required=False)
 
 	def as_div(self):
 		return self._html_output(
