@@ -29,6 +29,11 @@ function animateMapSVG(object_id, map_id) {
 				$(this).css("opacity","0");
 			});
 
+			// Adding room to application
+			$(map_svg).find('.room-frame').click(function(e) {
+				$(this).find("tspan").html();
+			});
+
 			//clicking on stairs
 			$(map_svg).find(".map-stairs-up").click(function (){
 				$(".rooms-plan-carousel").slick('slickNext');
